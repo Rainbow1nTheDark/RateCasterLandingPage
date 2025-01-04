@@ -76,16 +76,7 @@ export default function Home() {
       
       {/* Header (Top Navigation Bar) */}
       <header className="header">
-        <div className="logo-container">
-          <Image
-            src="/logo.svg"
-            alt="RateCaster Logo"
-            width={32}
-            height={32}
-            className="logo-icon"
-          />
-          <div className="logo-gradient">RateCaster</div>
-        </div>
+        <div className="logo-gradient">RateCaster</div>
         <nav className="nav">
         </nav>
       </header>
@@ -281,21 +272,6 @@ export default function Home() {
           padding: 1rem 2rem;
           background-color: var(--color-white);
           box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        .logo-container {
-          display: flex;
-          align-items: center;
-          gap: 0.75rem;
-        }
-
-        .logo-icon {
-          filter: drop-shadow(0 0 8px rgba(183, 148, 244, 0.4));
-          transition: filter 0.3s ease;
-        }
-
-        .logo-icon:hover {
-          filter: drop-shadow(0 0 12px rgba(183, 148, 244, 0.6));
         }
 
         .logo-gradient {
