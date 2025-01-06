@@ -114,6 +114,19 @@ export default function Home() {
               />
               Contact Us
             </button>
+            <button 
+              className="cta-button api-btn"
+              onClick={() => window.location.href = 'https://ratecaster.gitbook.io/ratecaster-api/'}
+            >
+              <Image 
+                src="/api-icon.svg" 
+                alt="API" 
+                width={24} 
+                height={24}
+                className="btn-icon"
+              />
+              API
+            </button>
           </div>
         </div>
       </section>
@@ -521,6 +534,11 @@ export default function Home() {
           justify-content: center;
         }
 
+        .hero-buttons button {
+          min-width: 160px;
+          justify-content: center;
+        }
+
         .cta-button {
           display: flex;
           align-items: center;
@@ -581,8 +599,7 @@ export default function Home() {
           transition: filter 0.3s ease;
         }
 
-        .whitepaper-btn:hover .btn-icon,
-        .contact-btn:hover .btn-icon {
+        .btn-icon:hover {
           filter: drop-shadow(0 0 12px rgba(183, 148, 244, 0.8));
         }
 
@@ -1045,6 +1062,29 @@ export default function Home() {
           .how-it-works {
             padding: 4rem 0;
           }
+        }
+
+        .api-btn {
+          background: transparent;
+          border: 2px solid var(--color-purple);
+          color: var(--color-white);
+          background: var(--color-purple);
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          box-shadow: 0 0 15px rgba(183, 148, 244, 0.3),
+                      inset 0 0 15px rgba(183, 148, 244, 0.2);
+          transition: all 0.3s ease;
+          animation: buttonGlow 2s infinite alternate;
+          position: relative;
+        }
+
+        .api-btn:hover {
+          background: var(--color-dark-purple);
+          box-shadow: 0 0 25px rgba(183, 148, 244, 0.5),
+                      inset 0 0 20px rgba(183, 148, 244, 0.3);
+          border-color: rgba(183, 148, 244, 0.8);
+          animation: buttonGlowHover 1.5s infinite alternate;
         }
       `}</style>
     </div>
