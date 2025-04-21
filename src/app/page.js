@@ -125,7 +125,7 @@ export default function Home() {
                 height={24}
                 className="btn-icon"
               />
-              API
+              SDK
             </button>
           </div>
         </div>
