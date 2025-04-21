@@ -11,12 +11,12 @@ export default function Footer() {
             <Link href="https://twitter.com/Rate_Caster" target="_blank" className="social-link">
               Twitter
             </Link>
-            <Link href="https://discord.gg/gzP64gEpTM" target="_blank" className="social-link">
+            {/* <Link href="https://discord.gg/gzP64gEpTM" target="_blank" className="social-link">
               Discord
             </Link>
             <Link href="https://t.me/BBB_inc" target="_blank" className="social-link">
               Telegram
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

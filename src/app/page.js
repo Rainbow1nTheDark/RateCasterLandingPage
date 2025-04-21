@@ -183,7 +183,7 @@ export default function Home() {
           </div>
           <div className="faq-item fade-in-item">
             <h3>How do I add my Dapp to RateCaster?</h3>
-            <p>Simply reach out to our support team or submit a request form. We'll review and list your Dapp if it meets our criteria.</p>
+            <p>You can use our Webiste to add your app or try out our SDK!</p>
           </div>
           <div className="faq-item fade-in-item">
             <h3>Is RateCaster multilingual?</h3>
